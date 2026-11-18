@@ -1,0 +1,57 @@
+﻿product_model,example_code,ordering_code_pattern,field_value_map_transcription
+ED-AIC1000,ED-AIC1000-013G06M-00081,ED-AIC1000-{sensor}{shutter}{focal}{lens}-{ddr}{emmc}{light},focal:06/08/12; emmc:08/16
+ED-AIC1000,ED-AIC1000-013G06M-0008100,ED-AIC1000-{sensor}{shutter}{focal}{lens}-{ddr}{emmc}{light}{polarizer},focal:06/08/12; emmc:08/16; polarizer:00/10
+ED-AIC3000,ED-AIC3000-120R12L-0216300,ED-AIC3000-{sensor}{shutter}{focal}{lens}-{ddr}{emmc}{light}{polarizer},ddr:02/04/08; emmc:16/32/64; polarizer:00/10
+ED-AIC3000-200,ED-AIC3000-200CR12L-0432300,ED-AIC3000-200{color}{shutter}{focal}{lens}-{ddr}{emmc}{light}{polarizer},color:C/B; ddr:04/08; emmc:16/32/64; polarizer:00/10
+ED-AIC3100,ED-AIC3100-120R12F-0216,ED-AIC3100-{sensor}{shutter}{focal}F-{ddr}{emmc},focal:06/08/12/16/25/35/50; ddr:02/04/08; emmc:16/32/64
+ED-CLAWBOX,ED-CLAWBOX-504S,ED-CLAWBOX-5{ddr}{case},case:S/P
+ED-CM0NANO,ED-CM0NANO-10008,ED-CM0NANO-{wifi}{ddr}{emmc},wifi:0/1; emmc:00/08/16
+ED-CM4IND,ED-CM4IND-1232-4C(US),ED-CM4IND-{wifi}{ddr}{storage}-{lte}{case}({region}),wifi:0/1; ddr:1/2/4/8; storage:SD64/SD/00/08/16/32; lte:blank/4; region:CN/CNG/US/EU/AU/EF
+ED-CM4IO,ED-CM4IO-1232-C,ED-CM4IO-{wifi}{ddr}{storage}-{case},wifi:0/1; ddr:1/2/4/8; storage:SD/00/08/16/32; case:blank/c
+ED-CM4MED,ED-CM4MED10-1820-4CS,ED-CM4MED10-{wifi}{ddr}{storage}-{lte}{camera}{case},wifi:0/1; ddr:1/2/4/8; storage:SD/10/20/50/1T; lte:blank/4; camera:blank/c; case:s/p
+ED-CM4NANO,ED-CM4NANO-1208-C,ED-CM4NANO-{wifi}{ddr}{emmc}-{case},wifi:0/1; ddr:1/2/4/8; emmc:08/16/32
+ED-CM4SEN,ED-CM4SENP-1208-4CN,ED-CM4SEN{power_connector}-{wifi}{ddr}{emmc}-{lte},power_connector:P/blank; wifi:0/1; ddr:1/2/4/8; emmc:08/16/32; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF
+ED-GWL2010,ED-GWL2010-232-EU,ED-GWL2010-{ddr}{sd}-{lora_region},ddr:1/2/4/8; sd:32/64; lora_region:CN/EU/US
+ED-GWL2110,ED-GWL2110-1232-4CN-EU,ED-GWL2110-{wifi}{ddr}{sd}-{lte}-{lora_region},wifi:0/1; ddr:1/2/4/8; sd:32/64; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF; lora_region:CN/EU/US
+ED-HMI2002,ED-HMI2002-070CC-0432,ED-HMI2002-{070|101}C{camera}-{ddr}{sd},screen:070/101; camera:blank/C; pi4_ddr:00/01/02/04/08; sd:00/32/64
+ED-HMI2002-116CA,ED-HMI2002-116CA-0432,ED-HMI2002-116CA-{ddr}{sd},ddr:02/04/08; sd:32/64
+ED-HMI2020,ED-HMI2020-070CC-1208,ED-HMI2020-{070|101}C{camera}-{wifi}{ddr}{emmc},screen:070/101; camera:blank/C; wifi:0/1; ddr:1/2/4/8; emmc:08/16/32
+ED-HMI2120,ED-HMI2120-070CC-1208-4CN,ED-HMI2120-{070|101}C{camera}-{wifi}{ddr}{emmc}-{lte}-{supercap},screen:070/101; camera:blank/C; wifi:0/1; ddr:1/2/4/8; emmc:08/16/32; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF; supercap:blank/S
+ED-HMI2220,ED-HMI2220-070CC-1208004-S,ED-HMI2220-{070|101}C{camera}-{wifi}{ddr}{emmc}{sd}{lte_digit}-{supercap},screen:070/101; camera:blank/C; wifi:0/1; ddr:1/2/4/8; emmc:00/08/16/32; sd:00/32/64; lte_digit:blank/4; supercap:blank/S
+ED-HMI232,ED-HMI2320-121C-12084-P21,ED-HMI232{0|1}-{121|156|215}C-{wifi}{ddr}{emmc}{lte}-{poe}{rs232_count}{rs485_count},model:0/1; screen:121/156/215; wifi:0/1; ddr:1/2/4/8; emmc:08/16/32; lte:blank/4/4CN/4CNG/4US/4EU/4AU/4EF; poe:blank/P; rs232_count:1/2/3/4/5; rs485_count:0/1/2
+ED-HMI263,ED-HMI2632-101CC-1208-4CN-S-SL,ED-HMI263{2|3|4}-101C{camera}-{wifi}{ddr}{emmc}-{lte}-{supercap}-{codesys},model_suffix:2/3/4; camera:blank/C; wifi:0/1; ddr:1/2/4/8; emmc:08/16/32; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF; supercap:blank/S; codesys:blank/SL
+ED-HMI3010,ED-HMI3010-070CC-0432-L,ED-HMI3010-{070|101}C{camera}-{ddr}{sd}-{cooling},screen:070/101; camera:blank/C; ddr:00/02/04/08/16; sd:00/32/64; cooling:blank/L
+ED-HMI3010,ED-HMI3010-116CA-0864,ED-HMI3010-{116|133|156|185|215}CA-{ddr}{sd},screen:116/133/156/185/215; combined_memory_token:0232/0432/0864/1664
+ED-HMI3020,ED-HMI3020-070CC-04321-P,ED-HMI3020-{070|101}C{camera}-{ddr}{sd}{ssd}-{poe},screen:070/101; camera:blank/C; ddr:02/04/08/16; sd:00/32/64; ssd:0/1/2; poe:blank/P
+ED-HMI3120,ED-HMI3120-070CC-10216-4CN-S,ED-HMI3120-{070|101}C{camera}-{wifi}{ddr}{emmc}-{lte}-{supercap},screen:070/101; camera:blank/C; wifi:0/1; ddr:02/04/08/16; emmc:16/32/64; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF; supercap:blank/S
+ED-HMI3120,ED-HMI3120-116C-10216-4CN-S,ED-HMI3120-{116|133|156|185|215}C-{wifi}{ddr}{emmc}-{lte}-{supercap},screen:116/133/156/185/215; wifi:0/1; ddr:02/04/08/16; emmc:16/32/64; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF; supercap:blank/S
+ED-HMI332,ED-HMI3320-156C-10216-4CN-P31,ED-HMI332{0|1}-156C-{wifi}{ddr}{emmc}-{lte}-{poe}{serial},model:0/1; wifi:0/1; ddr:02/04/08/16; emmc:16/32/64; lte:blank/4CN/4CNG/4US/4EU/4AU/4EM; poe:blank/P; serial:40/31/22
+ED-HMI363,ED-HMI3632-101CC-10216-4CN-S-SL,ED-HMI363{2|3|4}-{101|116|133|156}C{camera}-{wifi}{ddr}{emmc}-{lte}-{supercap}-{codesys},model_suffix:2/3/4; screen:101/116/133/156; camera:blank/C; wifi:0/1; ddr:02/04/08/16; emmc:16/32/64; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF; supercap:blank/S; codesys:blank/SL
+ED-IPC1000,ED-IPC1000-10008,ED-IPC1000-{wifi}{ddr}{storage},wifi:0/1; storage:08/16/32
+ED-IPC1100,ED-IPC1100-10008-4CN,ED-IPC1100-{wifi}{ddr}{emmc}-{lte},wifi:0/1; emmc:08/16; lte:4CN/4US/4EU
+ED-IPC1200,ED-IPC1200-10008-4CN,ED-IPC1200-{wifi}{ddr}{emmc}-{lte},wifi:0/1; emmc:08/16; lte:blank/4CN/4US/4EU
+ED-IPC1220,ED-IPC1220-10008-4CN,ED-IPC1220-{wifi}{ddr}{emmc}-{lte},wifi:0/1; emmc:08/16; lte:blank/4CN/4US/4EU
+ED-IPC2010,ED-IPC2010-1208,ED-IPC2010-{audio}{wifi}{ddr}{emmc},audio:blank/10/20; wifi:0/1; ddr:1/2/4/8; emmc:08/16/32
+ED-IPC21,ED-IPC2110-1208-4CN-S,ED-IPC21{10|20|30|40}-{wifi}{ddr}{emmc}-{lte}-{supercap},model_suffix:10/20/30/40; wifi:0/1; ddr:1/2/4/8; emmc:08/16/32; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF; supercap:blank/S
+ED-IPC22,ED-IPC2210-120800-4CN-S,ED-IPC22{10|20}-{wifi}{ddr}{emmc}{sd}-{lte}-{supercap},model_suffix:10/20; wifi:0/1; ddr:1/2/4/8; emmc:00/08/16/32; sd:00/32/64; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF; supercap:blank/S
+ED-IPC24,ED-IPC2410-1208,ED-IPC24{10|20|30}-{wifi}{ddr}{emmc},model_suffix:10/20/30; wifi:0/1; ddr:1/2/4/8; emmc:08/16/32
+ED-IPC2500,ED-IPC2500-02085GL-S,ED-IPC2500-{wifi}{ddr}{emmc}{5g}-{supercap},wifi:0/1; ddr:1/2/4/8; emmc:08/16/32; 5g:blank/5GL; supercap:blank/S
+ED-IPC26,ED-IPC2612-1208-4CN-S,ED-IPC26{1|2|3}{2|3|4}-{wifi}{ddr}{emmc}-{lte}-{supercap},model:1/2/3; model_suffix:2/3/4; wifi:0/1; ddr:1/2/4/8; emmc:08/16/32; lte:4CN/4CNG/4US/4EU/4AU/4EF; supercap:blank/S; codesys:blank/SL
+ED-IPC2700,ED-IPC2700-120800-4CN,ED-IPC2700-{wifi}{ddr}{storage}-{lte},wifi:0/1; ddr:1/2/4/8; storage:0800/1600/3200/0032/0064; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF
+ED-IPC2730,ED-IPC2730-143200-4CN,ED-IPC2730-{wifi}{ddr}{storage}-{lte},wifi:0/1; ddr:1/2/4/8; storage:0800/1600/3200/0032/0064; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF
+ED-IPC3020,ED-IPC3020-04321-P,ED-IPC3020-{ddr}{sd}{ssd}-{poe},ddr:02/04/08/16; sd:00/32/64; ssd:0/1/2; poe:blank/P
+ED-IPC3020E,ED-IPC3020E-04640-P,ED-IPC3020E-{ddr}{sd}{ssd}-{poe},ddr:01/02/04/08/16; sd:00/32/64; ssd:0/1/2; poe:blank/P
+ED-IPC3030,ED-IPC3030-10216,ED-IPC3030-{wifi}{ddr}{emmc},wifi:0/1; ddr:02/04/08/16; emmc:16/32/64
+ED-IPC31,ED-IPC3110-10216-4CN-S,ED-IPC31{10|20|30|40}-{wifi}{ddr}{emmc}-{lte}-{supercap},model_suffix:10/20/30/40; wifi:0/1; ddr:02/04/08/16; emmc:16/32/64; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF; supercap:blank/S
+ED-IPC32,ED-IPC3210-10216-4CN-S,ED-IPC32{10|20}-{wifi}{ddr}{emmc}-{lte}-{supercap},model_suffix:10/20; wifi:0/1; ddr:02/04/08/16; emmc:16/32/64; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF; supercap:blank/S
+ED-IPC3400,ED-IPC3400-1021600-A,ED-IPC3400-{wifi}{ddr}{storage}-{hailo_or_ssd},wifi:0/1; ddr:02/04/08/16; storage:0000/1600/6400/0032/0064; hailo_or_ssd:blank/A/1/2/3
+ED-IPC36,ED-IPC3632-10216-4CN-S-SL,ED-IPC363{2|3|4}-{wifi}{ddr}{emmc}-{lte}-{supercap}-{codesys},model_suffix:2/3/4; wifi:0/1; ddr:02/04/08/16; emmc:16/32/64; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF; supercap:blank/S; codesys:blank/SL
+ED-PAC3020,ED-PAC3020-021-P,ED-PAC3020-{ddr_ssd}-{poe},ddr_ssd:021/082
+ED-PAC3100,ED-PAC3110-0216-S,ED-PAC3100-{ddr_emmc}-{supercap},ddr_emmc:0216/0832/0864; supercap:blank/S
+ED-PAC3630,ED-PAC3630-0216-S,ED-PAC3630-{ddr_emmc}-{supercap},ddr_emmc:0216/0832/0864; supercap:blank/S
+ED-PLC2010,ED-PLC2010-1208-4CN,ED-PLC2010-{wifi}{ddr}{emmc}-{lte},wifi:0/1; ddr:1/2/4/8; emmc:08/16/32; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF
+ED-SBC23,ED-SBC2320-1208-4CN-PH,ED-SBC23{10|11|20|21}-{wifi}{ddr}{emmc}-{lte}-{poe}{heatsink},model:10/11/20/21; wifi:0/1; ddr:1/2/4/8; emmc:08/16/32; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF; poe:blank/P; heatsink:blank/H
+ED-SBC33,ED-SBC3320-10216-4CN-PH,ED-SBC33{10|11|20|21}-{wifi}{ddr}{emmc}-{lte}-{poe}{heatsink},model:10/11/20/21; wifi:0/1; ddr:02/04/08/16; emmc:16/32/64; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF; poe:blank/P; heatsink:blank/H
+ED-TPM,ED-TPM,ED-TPM,suffix:blank/P
+ED-XGW,ED-XGW-1000800-4CN-AT,ED-XGW-{wifi}{ddr}{storage}-{lte}-{serial}{tpm},storage:0800/0032; lte:blank/4CN/4US/4EU; serial:A/B; tpm:blank/T
+ED-IPC2642,ED-IPC2642-12084CNG-SM,ED-IPC2642-12084CNG-SM,
