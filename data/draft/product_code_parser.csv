@@ -31,7 +31,8 @@ ED-IPC1000,ED-IPC1000-10008,ED-IPC1000-{wifi}{ddr}{storage},wifi:0/1; storage:08
 ED-IPC1100,ED-IPC1100-10008-4CN,ED-IPC1100-{wifi}{ddr}{emmc}-{lte},wifi:0/1; emmc:08/16; lte:4CN/4US/4EU
 ED-IPC1200,ED-IPC1200-10008-4CN,ED-IPC1200-{wifi}{ddr}{emmc}-{lte},wifi:0/1; emmc:08/16; lte:blank/4CN/4US/4EU
 ED-IPC1220,ED-IPC1220-10008-4CN,ED-IPC1220-{wifi}{ddr}{emmc}-{lte},wifi:0/1; emmc:08/16; lte:blank/4CN/4US/4EU
-ED-IPC2010,ED-IPC2010-1208,ED-IPC2010-{audio}{wifi}{ddr}{emmc},audio:blank/10/20; wifi:0/1; ddr:1/2/4/8; emmc:08/16/32
+ED-IPC2010,ED-IPC2010-1208,ED-IPC2010-{wifi}{ddr}{emmc},wifi:0/1; ddr:1/2/4/8; emmc:08/16/32
+ED-IPC2010,ED-IPC2010-101208,ED-IPC2010-{audio}{wifi}{ddr}{emmc},audio:10/20; wifi:0/1; ddr:1/2/4/8; emmc:08/16/32
 ED-IPC21,ED-IPC2110-1208-4CN-S,ED-IPC21{10|20|30|40}-{wifi}{ddr}{emmc}-{lte}-{supercap},model_suffix:10/20/30/40; wifi:0/1; ddr:1/2/4/8; emmc:08/16/32; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF; supercap:blank/S
 ED-IPC22,ED-IPC2210-120800-4CN-S,ED-IPC22{10|20}-{wifi}{ddr}{emmc}{sd}-{lte}-{supercap},model_suffix:10/20; wifi:0/1; ddr:1/2/4/8; emmc:00/08/16/32; sd:00/32/64; lte:blank/4CN/4CNG/4US/4EU/4AU/4EF; supercap:blank/S
 ED-IPC24,ED-IPC2410-1208,ED-IPC24{10|20|30}-{wifi}{ddr}{emmc},model_suffix:10/20/30; wifi:0/1; ddr:1/2/4/8; emmc:08/16/32
