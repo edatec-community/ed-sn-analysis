@@ -298,11 +298,14 @@ def load_entries() -> list[dict[str, object]]:
 
 
 def parse_input(text: str, *, strict: bool = False) -> dict[str, object] | None:
+    serial_match = re.search(r"\s+(ES[0-9]{9})\s*\Z", text, flags=re.I)
+    if serial_match:
+        text = text[:serial_match.start()]
+    elif strict:
+        # Preserve support for older scanner suffixes without returning them as SNs.
+        text = re.sub(r"\s+ES[0-9]+\s*$", "", text, flags=re.I)
     # Scanners and copied SN data may insert spaces or line breaks inside the input.
     # Ordering codes themselves contain no whitespace, so search a compact copy.
-    if strict:
-        # A scanner may append the serial number on a separate line.
-        text = re.sub(r"\s+ES[0-9]+\s*$", "", text, flags=re.I)
     search_text = re.sub(r"\s+", "", text)
     candidates: list[tuple[int, int, int, int, dict[str, object]]] = []
     for entry in load_entries():
@@ -322,6 +325,8 @@ def parse_input(text: str, *, strict: bool = False) -> dict[str, object] | None:
             result = {"product_model": row["product_model"], "configuration": config}
             if strict:
                 result["order_code"] = match.group().upper()
+            if serial_match:
+                result["sn"] = serial_match.group(1).upper()
             candidates.append((match.end() - match.start(), int(entry["literal_score"]),
                                len(config), -match.start(), result))
     if not candidates:
